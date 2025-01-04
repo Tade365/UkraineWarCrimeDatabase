@@ -12,16 +12,26 @@
 <body>
     <?php
     include 'parts/header.php';
-        $_GET['page'];
-        switch ($_GET) {
-            case 'value':
-                # code...
+    ?>
+    <div style="height: 1px; background-color: white"></div>
+
+    <?php
+    if (isset($_GET['page'])) {
+        switch ($_GET['page']){
+            case 'faq':
+                include 'pages/faq.php';
                 break;
-            
+            case 'about':
+                include 'pages/about.php';
+                break;
+            case 'incidents':
+                include 'pages/incidents.php';
+                break;
             default:
                 include 'pages/home.php';
                 break;
         }
+    }
     ?>
     <!-- Bootsrap scripts -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>

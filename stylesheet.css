@@ -1,6 +1,9 @@
-#ico{
+#logo{
     width: 128px;
-    height: 64px;
+}
+.nav-link{
+    font-size: 40px;
+    margin-left: 25px;
 }
 body{
     background-color: #404040;
