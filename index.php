@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ukraine War Hub</title>
     <!-- Bootsrap stylesheet -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="stylesheet.css" rel="stylesheet">
@@ -17,23 +17,24 @@
 
     <?php
     if (isset($_GET['page'])) {
-        switch ($_GET['page']){
-            case 'faq':
-                include 'pages/faq.php';
+        switch ($_GET['page']) {
+            case 'news':
+                include 'pages/news.php';
                 break;
-            case 'about':
-                include 'pages/about.php';
+            case 'donations':
+                include 'pages/donations.php';
                 break;
-            case 'incidents':
-                include 'pages/incidents.php';
+            case 'rellinks':
+                include 'pages/rellinks.php';
+                break;
+            case 'warcrimedb':
+                include 'pages/warcrimedb.php';
                 break;
             default:
                 include 'pages/home.php';
                 break;
         }
-    
-    } 
-    else {
+    } else {
         include 'pages/home.php';
     }
     ?>
