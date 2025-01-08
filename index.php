@@ -31,6 +31,10 @@
                 include 'pages/home.php';
                 break;
         }
+    
+    } 
+    else {
+        include 'pages/home.php';
     }
     ?>
     <!-- Bootsrap scripts -->
