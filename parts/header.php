@@ -10,10 +10,10 @@
     <div class="collapse navbar-collapse" id="navbarsExample03">
       <ul class="navbar-nav ms-auto mb-2 mb-sm-0">
         <li class="nav-item"><a href="?page=home" class="nav-link">Home</a></li>
-        <li class="nav-item"><a href="?page=faq" class="nav-link">News</a></li>
-        <li class="nav-item"><a href="?page=about" class="nav-link">Related Links</a></li>
-        <li class="nav-item"><a href="?page=home" class="nav-link">Donations</a></li>
-        <li class="nav-item"><a href="?page=ncidents" class="nav-link">WarCrimeDB</a></li>
+        <li class="nav-item"><a href="?page=news" class="nav-link">News</a></li>
+        <li class="nav-item"><a href="?page=rellinks" class="nav-link">Related Links</a></li>
+        <li class="nav-item"><a href="?page=donations" class="nav-link">Donations</a></li>
+        <li class="nav-item"><a href="?page=warcrimedb" class="nav-link">WarCrimeDB</a></li>
       </ul>
     </div>
   </div>
